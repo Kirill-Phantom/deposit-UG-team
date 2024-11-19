@@ -15,6 +15,7 @@
             align-items: center;
             height: 100vh;
             margin: 0;
+            flex-direction: column; /* Make the body layout vertical */
         }
         .calculator {
             background: #fff;
@@ -56,6 +57,12 @@
         small {
             color: #555;
         }
+        .footer {
+            margin-top: 30px;
+            font-size: 14px;
+            color: #fff;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
@@ -77,6 +84,10 @@
         <button onclick="calculate()">Розрахувати</button>
         
         <div class="result" id="result"></div>
+    </div>
+
+    <div class="footer">
+        <p>Designed by Kirill Phantom</p>
     </div>
 
     <script>
