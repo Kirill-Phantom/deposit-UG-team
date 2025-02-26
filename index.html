@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="uk">
 <head>
@@ -32,7 +33,7 @@
             margin-bottom: 20px;
         }
         input, select, button {
-            width: 100%;
+            width: 350px;
             padding: 10px;
             margin: 10px 0;
             border: 1px solid #ccc;
@@ -40,6 +41,7 @@
             font-size: 16px;
         }
         button {
+            width: 150px;
             background: #0984e3;
             color: #fff;
             border: none;
@@ -55,6 +57,11 @@
             color: #fff;
             text-align: center;
         }
+      
+      .payday {
+        width: 90px;
+      }
+      
     </style>
 </head>
 <body>
@@ -73,7 +80,7 @@
         <label for="amount">Сума (₴):</label>
         <input type="number" id="amount" placeholder="Максимум: 5000000" max="5000000" step="1">
         <small>Введіть суму до 5000000</small>
-
+            <br>
         <label for="options">Оберіть PayDay:</label>
         <select id="options">
             <option value="0.06" data-paydays="5">5 PayDay - 0.06%</option>
@@ -88,7 +95,7 @@
     </div>
 
     <div class="footer">
-        <p>Designed by Kirill Phantom</p>
+        <p>Designed by Kirill Phantom ♡</p>
     </div>
 
     <!-- Firebase SDK -->
